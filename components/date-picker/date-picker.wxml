@@ -5,6 +5,7 @@
             <view class="date-picker-content-cancel" hover-class="hover-class" catchtouchend="onCacnelClick">
                 取消
             </view>
+            <text style="color:#333;font-size:17px;">{{title}}</text>
             <view class="date-picker-content-sure"  hover-class="hover-class" catchtouchend="onSureClick">
                 确认
             </view>
