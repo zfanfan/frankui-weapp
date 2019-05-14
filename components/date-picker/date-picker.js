@@ -9,6 +9,10 @@ Component({
             type: Boolean,
             value: false,
             observer: "onShow"
+        },
+        title:{
+            type: String,
+            value:""
         }
     },
 
